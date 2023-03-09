@@ -19,7 +19,7 @@ export default function RemainTime({ text, prayer, time }) {
               <div className="font-mono leading-none" x-text="hours">
                 {time.slice(0, 2)}
               </div>
-              <p className="text-base">Hour</p>
+              <p className="text-base">Hours</p>
             </div>
             <div className="w-5/6 lg:w-24 xl:w-24 mx-1 p-2 text-yellow-800 rounded-lg bg-yellow-50 dark:bg-gray-800 dark:text-yellow-300">
               <div className="font-mono leading-none" x-text="minutes">
